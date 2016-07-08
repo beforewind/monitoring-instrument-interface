@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>qml/Views/ADView.qml</file>
+        <file>qml/Views/DAOutputView.qml</file>
+        <file>qml/Views/DASettingsView.qml</file>
+        <file>qml/Views/GasView.qml</file>
+        <file>qml/Views/StartView.qml</file>
+        <file>content/images/Configure1.png</file>
+        <file>content/images/Gadgets1.png</file>
+        <file>content/images/Network1.png</file>
+        <file>content/images/Task Manager alt 1.png</file>
+        <file>content/html/gasview.html</file>
+        <file>content/html/js/flot/jquery.flot.js</file>
+        <file>content/images/caduceus-48.png</file>
+        <file>content/images/electrical_threshold-48.png</file>
+        <file>content/images/heart_monitor-48.png</file>
+        <file>content/images/hearts-48.png</file>
+        <file>content/images/quill_with_ink-48.png</file>
+        <file>content/images/report_card-48.png</file>
+        <file>content/html/js/jquery.min.js</file>
+        <file>qml/Views/SettingsView.qml</file>
+        <file>content/html/js/flot/jquery.flot.crosshair.js</file>
+        <file>content/html/examples.css</file>
+        <file>qml/Views/DAQChartViews.qml</file>
+        <file>content/fonts/OpenSans-Regular.ttf</file>
+        <file>content/fonts/Ubuntu-R.ttf</file>
+        <file>qml/Views/PipeView.qml</file>
+        <file>content/images/Control Panel.png</file>
+        <file>content/images/icon-left-arrow.png</file>
+        <file>content/images/USB alt 2.png</file>
+        <file>content/images/bg/pipe.svg</file>
+    </qresource>
+</RCC>

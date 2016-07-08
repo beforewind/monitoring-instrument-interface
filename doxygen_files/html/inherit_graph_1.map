@@ -1,0 +1,12 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$class_d_a_c.html" title="DAC" alt="" coords="153,5,202,32"/>
+<area shape="rect" id="node3" href="$class_d_a_parameters.html" title="DAParameters" alt="" coords="124,56,231,83"/>
+<area shape="rect" id="node4" href="$class_d_a_q.html" title="DAQ" alt="" coords="152,107,203,133"/>
+<area shape="rect" id="node5" href="$class_database.html" title="Database" alt="" coords="139,157,216,184"/>
+<area shape="rect" id="node6" href="$class_data_source.html" title="DataSource" alt="" coords="132,208,223,235"/>
+<area shape="rect" id="node7" href="$class_d_b_worker.html" title="DBWorker" alt="" coords="136,259,219,285"/>
+<area shape="rect" id="node8" href="$class_device.html" title="Device" alt="" coords="147,309,207,336"/>
+<area shape="rect" id="node9" href="$class_gas_data.html" title="GasData" alt="" coords="141,360,214,387"/>
+<area shape="rect" id="node10" href="$class_serial.html" title="Serial" alt="" coords="150,411,205,437"/>
+<area shape="rect" id="node11" href="$class_timer.html" title="Timer" alt="" coords="150,461,205,488"/>
+</map>

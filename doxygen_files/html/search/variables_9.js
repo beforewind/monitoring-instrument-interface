@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['usb2089_5fadmode_5fgroup',['USB2089_ADMODE_GROUP',['../usb2089_8h.html#aae0767d4315ddb0ddbca05b14a648922',1,'usb2089.h']]],
+  ['usb2089_5fadmode_5fsequence',['USB2089_ADMODE_SEQUENCE',['../usb2089_8h.html#a94cae233417fd40a45fdf56db888dd54',1,'usb2089.h']]],
+  ['usb2089_5fgains_5f1000mult',['USB2089_GAINS_1000MULT',['../usb2089_8h.html#a27c554640cc0c55b512c5db6010ba240',1,'usb2089.h']]],
+  ['usb2089_5fgains_5f100mult',['USB2089_GAINS_100MULT',['../usb2089_8h.html#a34c6480b69dc06b875b84c741799f6ff',1,'usb2089.h']]],
+  ['usb2089_5fgains_5f10mult',['USB2089_GAINS_10MULT',['../usb2089_8h.html#a5818fb9d0b2952fb6623f854cf517f7d',1,'usb2089.h']]],
+  ['usb2089_5fgains_5f1mult',['USB2089_GAINS_1MULT',['../usb2089_8h.html#a2ed687fd7135bba800a9cdf11013fb8b',1,'usb2089.h']]],
+  ['usb2089_5fgains_5f2mult',['USB2089_GAINS_2MULT',['../usb2089_8h.html#adf3c8092a7283f0a93fe8bfc0a038210',1,'usb2089.h']]],
+  ['usb2089_5fgains_5f4mult',['USB2089_GAINS_4MULT',['../usb2089_8h.html#aba19d378c9db41e209b510a4c54a0368',1,'usb2089.h']]],
+  ['usb2089_5fgains_5f8mult',['USB2089_GAINS_8MULT',['../usb2089_8h.html#aaba9af35113df9ac84549776bee93e6d',1,'usb2089.h']]],
+  ['usb2089_5ftrigdir_5fnegative',['USB2089_TRIGDIR_NEGATIVE',['../usb2089_8h.html#a7a15e33a6dce7a10c13eb93c97dae452',1,'usb2089.h']]],
+  ['usb2089_5ftrigdir_5fposit_5fnegat',['USB2089_TRIGDIR_POSIT_NEGAT',['../usb2089_8h.html#a89a4d5b57be667a5e56e223a57f8f98d',1,'usb2089.h']]],
+  ['usb2089_5ftrigdir_5fpositive',['USB2089_TRIGDIR_POSITIVE',['../usb2089_8h.html#aef391486945ce07a2e17d6afcaafd8f3',1,'usb2089.h']]],
+  ['usb2089_5ftrigmode_5fpost',['USB2089_TRIGMODE_POST',['../usb2089_8h.html#a1864c47aab823543f8c404c84cd127eb',1,'usb2089.h']]],
+  ['usb2089_5ftrigmode_5fsoft',['USB2089_TRIGMODE_SOFT',['../usb2089_8h.html#a8fafb70773071189ba0f3ab0d71782bc',1,'usb2089.h']]],
+  ['usb2089_5ftrigtype_5fedge',['USB2089_TRIGTYPE_EDGE',['../usb2089_8h.html#aa6ffddb41357c14b1505984b80d3a798',1,'usb2089.h']]],
+  ['usb2089_5ftrigtype_5fpulse',['USB2089_TRIGTYPE_PULSE',['../usb2089_8h.html#afcc7fbf9306c93fd6dccb30daa6c6d23',1,'usb2089.h']]]
+];

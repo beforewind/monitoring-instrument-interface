@@ -1,0 +1,130 @@
+\hypertarget{class_d_b_worker}{}\section{D\+B\+Worker类 参考}
+\label{class_d_b_worker}\index{D\+B\+Worker@{D\+B\+Worker}}
+
+
+{\ttfamily \#include $<$database.\+h$>$}
+
+
+
+类 D\+B\+Worker 继承关系图\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=169pt]{class_d_b_worker__inherit__graph}
+\end{center}
+\end{figure}
+
+
+D\+B\+Worker 的协作图\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=169pt]{class_d_b_worker__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public 槽}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_d_b_worker_aa71a7eec68cdcec515ec0c11a33865ec}{generate\+Para} ()
+\item 
+void \hyperlink{class_d_b_worker_a188d324c26f6d112bca1db7f3115262d}{export\+File} (const Q\+String \&table\+Name, const Q\+String \&suffix)
+\item 
+void \hyperlink{class_d_b_worker_ae56132fc6027e5d06abdc077bcb49fc7}{insert} (const Q\+Date\+Time \&datetime, const Q\+String \&table\+Name)
+\item 
+void \hyperlink{class_d_b_worker_a37a2193ad84d7276c06795e23b76afa2}{create\+Table} (const Q\+String \&table\+Name)
+\end{DoxyCompactItemize}
+\subsection*{信号}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_d_b_worker_ab89c620df543d5a046626ca64fc64dc1}{export\+Done} ()
+\item 
+void \hyperlink{class_d_b_worker_a9e1c54915c77ee1aac911ae90a3072cc}{table\+Created} ()
+\end{DoxyCompactItemize}
+\subsection*{Public 成员函数}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_d_b_worker_ae87336f36d643f7afc331ba9953b059a}{D\+B\+Worker} (Q\+Object $\ast$parent=0)
+\item 
+\hyperlink{class_d_b_worker_a23bbf99c73d80b9a6a0cebb332591ae3}{D\+B\+Worker} (qint16 $\ast$buffer)
+\item 
+\hyperlink{class_d_b_worker_a5b3c98063d26d42c67511fb3f565b9f0}{$\sim$\+D\+B\+Worker} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{构造及析构函数说明}
+\index{D\+B\+Worker@{D\+B\+Worker}!D\+B\+Worker@{D\+B\+Worker}}
+\index{D\+B\+Worker@{D\+B\+Worker}!D\+B\+Worker@{D\+B\+Worker}}
+\subsubsection[{\texorpdfstring{D\+B\+Worker(\+Q\+Object $\ast$parent=0)}{DBWorker(QObject *parent=0)}}]{\setlength{\rightskip}{0pt plus 5cm}D\+B\+Worker\+::\+D\+B\+Worker (
+\begin{DoxyParamCaption}
+\item[{Q\+Object $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [explicit]}}\hypertarget{class_d_b_worker_ae87336f36d643f7afc331ba9953b059a}{}\label{class_d_b_worker_ae87336f36d643f7afc331ba9953b059a}
+\index{D\+B\+Worker@{D\+B\+Worker}!D\+B\+Worker@{D\+B\+Worker}}
+\index{D\+B\+Worker@{D\+B\+Worker}!D\+B\+Worker@{D\+B\+Worker}}
+\subsubsection[{\texorpdfstring{D\+B\+Worker(qint16 $\ast$buffer)}{DBWorker(qint16 *buffer)}}]{\setlength{\rightskip}{0pt plus 5cm}D\+B\+Worker\+::\+D\+B\+Worker (
+\begin{DoxyParamCaption}
+\item[{qint16 $\ast$}]{buffer}
+\end{DoxyParamCaption}
+)}\hypertarget{class_d_b_worker_a23bbf99c73d80b9a6a0cebb332591ae3}{}\label{class_d_b_worker_a23bbf99c73d80b9a6a0cebb332591ae3}
+\index{D\+B\+Worker@{D\+B\+Worker}!````~D\+B\+Worker@{$\sim$\+D\+B\+Worker}}
+\index{````~D\+B\+Worker@{$\sim$\+D\+B\+Worker}!D\+B\+Worker@{D\+B\+Worker}}
+\subsubsection[{\texorpdfstring{$\sim$\+D\+B\+Worker()}{~DBWorker()}}]{\setlength{\rightskip}{0pt plus 5cm}D\+B\+Worker\+::$\sim$\+D\+B\+Worker (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_d_b_worker_a5b3c98063d26d42c67511fb3f565b9f0}{}\label{class_d_b_worker_a5b3c98063d26d42c67511fb3f565b9f0}
+
+
+\subsection{成员函数说明}
+\index{D\+B\+Worker@{D\+B\+Worker}!create\+Table@{create\+Table}}
+\index{create\+Table@{create\+Table}!D\+B\+Worker@{D\+B\+Worker}}
+\subsubsection[{\texorpdfstring{create\+Table}{createTable}}]{\setlength{\rightskip}{0pt plus 5cm}void D\+B\+Worker\+::create\+Table (
+\begin{DoxyParamCaption}
+\item[{const Q\+String \&}]{table\+Name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}\hypertarget{class_d_b_worker_a37a2193ad84d7276c06795e23b76afa2}{}\label{class_d_b_worker_a37a2193ad84d7276c06795e23b76afa2}
+\index{D\+B\+Worker@{D\+B\+Worker}!export\+Done@{export\+Done}}
+\index{export\+Done@{export\+Done}!D\+B\+Worker@{D\+B\+Worker}}
+\subsubsection[{\texorpdfstring{export\+Done}{exportDone}}]{\setlength{\rightskip}{0pt plus 5cm}void D\+B\+Worker\+::export\+Done (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [signal]}}\hypertarget{class_d_b_worker_ab89c620df543d5a046626ca64fc64dc1}{}\label{class_d_b_worker_ab89c620df543d5a046626ca64fc64dc1}
+\index{D\+B\+Worker@{D\+B\+Worker}!export\+File@{export\+File}}
+\index{export\+File@{export\+File}!D\+B\+Worker@{D\+B\+Worker}}
+\subsubsection[{\texorpdfstring{export\+File}{exportFile}}]{\setlength{\rightskip}{0pt plus 5cm}void D\+B\+Worker\+::export\+File (
+\begin{DoxyParamCaption}
+\item[{const Q\+String \&}]{table\+Name, }
+\item[{const Q\+String \&}]{suffix}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}\hypertarget{class_d_b_worker_a188d324c26f6d112bca1db7f3115262d}{}\label{class_d_b_worker_a188d324c26f6d112bca1db7f3115262d}
+\index{D\+B\+Worker@{D\+B\+Worker}!generate\+Para@{generate\+Para}}
+\index{generate\+Para@{generate\+Para}!D\+B\+Worker@{D\+B\+Worker}}
+\subsubsection[{\texorpdfstring{generate\+Para}{generatePara}}]{\setlength{\rightskip}{0pt plus 5cm}void D\+B\+Worker\+::generate\+Para (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}\hypertarget{class_d_b_worker_aa71a7eec68cdcec515ec0c11a33865ec}{}\label{class_d_b_worker_aa71a7eec68cdcec515ec0c11a33865ec}
+\index{D\+B\+Worker@{D\+B\+Worker}!insert@{insert}}
+\index{insert@{insert}!D\+B\+Worker@{D\+B\+Worker}}
+\subsubsection[{\texorpdfstring{insert}{insert}}]{\setlength{\rightskip}{0pt plus 5cm}void D\+B\+Worker\+::insert (
+\begin{DoxyParamCaption}
+\item[{const Q\+Date\+Time \&}]{datetime, }
+\item[{const Q\+String \&}]{table\+Name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}\hypertarget{class_d_b_worker_ae56132fc6027e5d06abdc077bcb49fc7}{}\label{class_d_b_worker_ae56132fc6027e5d06abdc077bcb49fc7}
+\index{D\+B\+Worker@{D\+B\+Worker}!table\+Created@{table\+Created}}
+\index{table\+Created@{table\+Created}!D\+B\+Worker@{D\+B\+Worker}}
+\subsubsection[{\texorpdfstring{table\+Created}{tableCreated}}]{\setlength{\rightskip}{0pt plus 5cm}void D\+B\+Worker\+::table\+Created (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [signal]}}\hypertarget{class_d_b_worker_a9e1c54915c77ee1aac911ae90a3072cc}{}\label{class_d_b_worker_a9e1c54915c77ee1aac911ae90a3072cc}
+
+
+该类的文档由以下文件生成\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{database_8h}{database.\+h}\item 
+\hyperlink{database_8cpp}{database.\+cpp}\end{DoxyCompactItemize}

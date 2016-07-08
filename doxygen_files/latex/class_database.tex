@@ -1,0 +1,219 @@
+\hypertarget{class_database}{}\section{Database类 参考}
+\label{class_database}\index{Database@{Database}}
+
+
+{\ttfamily \#include $<$database.\+h$>$}
+
+
+
+类 Database 继承关系图\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=188pt]{class_database__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Database 的协作图\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=188pt]{class_database__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public 槽}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_database_a5cafa53304f3ff79a2487f5333cab8ad}{table\+Switch} (bool s)
+\item 
+void \hyperlink{class_database_a2262e223186a88b1ac0f88245bfaab71}{insert} (const Q\+Date\+Time \&datetime)
+\item 
+void \hyperlink{class_database_a857e6024cbfab56a3f3521ccc6769cf4}{on\+Period\+Changed} (int p)
+\item 
+void \hyperlink{class_database_af6cffa238311bf9d398f401c314160bf}{table\+Created} ()
+\end{DoxyCompactItemize}
+\subsection*{信号}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_database_aa804ee053ba71d1e7c711a440968b9bc}{tables\+Changed} ()
+\item 
+void \hyperlink{class_database_a0ed84bd7f656e5fabadd579a0cbcbc57}{table\+Name\+Changed} ()
+\item 
+void \hyperlink{class_database_a1581c3afe4b3b9427620a55f29e0910b}{export\+X\+L\+SX} (const Q\+String \&, const Q\+String \&)
+\item 
+void \hyperlink{class_database_a083b4f32eff1dd87f48f6ccb46f3218e}{data\+Insert} (const Q\+Date\+Time \&, const Q\+String \&)
+\item 
+void \hyperlink{class_database_a4534ad8a6b59a7bf06d287911c38421a}{create\+Table} (const Q\+String \&)
+\end{DoxyCompactItemize}
+\subsection*{Public 成员函数}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_database_acad5a1c9dd5a5051e3967024dc96373a}{Database} (qint16 $\ast$buffer)
+\item 
+\hyperlink{class_database_a84d399a2ad58d69daab9b05330e1316d}{$\sim$\+Database} ()
+\item 
+Q\+\_\+\+I\+N\+V\+O\+K\+A\+B\+LE void \hyperlink{class_database_a8eecdb8ab49878d43a41d5e29c3c35a2}{load\+Tables} ()
+\item 
+Q\+\_\+\+I\+N\+V\+O\+K\+A\+B\+LE Q\+String \hyperlink{class_database_a2c471d41d2dd4341ff510e06a0c8c6a5}{new\+Table\+Name} ()
+\item 
+Q\+\_\+\+I\+N\+V\+O\+K\+A\+B\+LE void \hyperlink{class_database_a6192c09a9cba8435c61c779d519e57b0}{save\+Data} (bool s)
+\item 
+Q\+\_\+\+I\+N\+V\+O\+K\+A\+B\+LE void \hyperlink{class_database_adcec92191ed1c8773bcf82f676a0e87b}{export\+File} (const Q\+String \&\hyperlink{class_database_a9f617c90d57d4c5b14e96e51c1aea92b}{table\+Name}, const Q\+String \&suffix)
+\item 
+Q\+Variant \hyperlink{class_database_a47600e88e0ff9dea23b9e3ee27ed55bf}{tables} ()
+\item 
+Q\+String \hyperlink{class_database_aa5f9ba4502bd54b08a1c04381cc8d361}{table\+Name} ()
+\end{DoxyCompactItemize}
+\subsection*{属性}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Variant \hyperlink{class_database_ad44cff8b67b203182ef6d2b8f01126cf}{tables}
+\item 
+Q\+String \hyperlink{class_database_a9f617c90d57d4c5b14e96e51c1aea92b}{table\+Name}
+\end{DoxyCompactItemize}
+
+
+\subsection{构造及析构函数说明}
+\index{Database@{Database}!Database@{Database}}
+\index{Database@{Database}!Database@{Database}}
+\subsubsection[{\texorpdfstring{Database(qint16 $\ast$buffer)}{Database(qint16 *buffer)}}]{\setlength{\rightskip}{0pt plus 5cm}Database\+::\+Database (
+\begin{DoxyParamCaption}
+\item[{qint16 $\ast$}]{buffer}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [explicit]}}\hypertarget{class_database_acad5a1c9dd5a5051e3967024dc96373a}{}\label{class_database_acad5a1c9dd5a5051e3967024dc96373a}
+\index{Database@{Database}!````~Database@{$\sim$\+Database}}
+\index{````~Database@{$\sim$\+Database}!Database@{Database}}
+\subsubsection[{\texorpdfstring{$\sim$\+Database()}{~Database()}}]{\setlength{\rightskip}{0pt plus 5cm}Database\+::$\sim$\+Database (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_database_a84d399a2ad58d69daab9b05330e1316d}{}\label{class_database_a84d399a2ad58d69daab9b05330e1316d}
+
+
+\subsection{成员函数说明}
+\index{Database@{Database}!create\+Table@{create\+Table}}
+\index{create\+Table@{create\+Table}!Database@{Database}}
+\subsubsection[{\texorpdfstring{create\+Table}{createTable}}]{\setlength{\rightskip}{0pt plus 5cm}void Database\+::create\+Table (
+\begin{DoxyParamCaption}
+\item[{const Q\+String \&}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [signal]}}\hypertarget{class_database_a4534ad8a6b59a7bf06d287911c38421a}{}\label{class_database_a4534ad8a6b59a7bf06d287911c38421a}
+\index{Database@{Database}!data\+Insert@{data\+Insert}}
+\index{data\+Insert@{data\+Insert}!Database@{Database}}
+\subsubsection[{\texorpdfstring{data\+Insert}{dataInsert}}]{\setlength{\rightskip}{0pt plus 5cm}void Database\+::data\+Insert (
+\begin{DoxyParamCaption}
+\item[{const Q\+Date\+Time \&}]{, }
+\item[{const Q\+String \&}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [signal]}}\hypertarget{class_database_a083b4f32eff1dd87f48f6ccb46f3218e}{}\label{class_database_a083b4f32eff1dd87f48f6ccb46f3218e}
+\index{Database@{Database}!export\+File@{export\+File}}
+\index{export\+File@{export\+File}!Database@{Database}}
+\subsubsection[{\texorpdfstring{export\+File(const Q\+String \&table\+Name, const Q\+String \&suffix)}{exportFile(const QString &tableName, const QString &suffix)}}]{\setlength{\rightskip}{0pt plus 5cm}void Database\+::export\+File (
+\begin{DoxyParamCaption}
+\item[{const Q\+String \&}]{table\+Name, }
+\item[{const Q\+String \&}]{suffix}
+\end{DoxyParamCaption}
+)}\hypertarget{class_database_adcec92191ed1c8773bcf82f676a0e87b}{}\label{class_database_adcec92191ed1c8773bcf82f676a0e87b}
+\index{Database@{Database}!export\+X\+L\+SX@{export\+X\+L\+SX}}
+\index{export\+X\+L\+SX@{export\+X\+L\+SX}!Database@{Database}}
+\subsubsection[{\texorpdfstring{export\+X\+L\+SX}{exportXLSX}}]{\setlength{\rightskip}{0pt plus 5cm}void Database\+::export\+X\+L\+SX (
+\begin{DoxyParamCaption}
+\item[{const Q\+String \&}]{, }
+\item[{const Q\+String \&}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [signal]}}\hypertarget{class_database_a1581c3afe4b3b9427620a55f29e0910b}{}\label{class_database_a1581c3afe4b3b9427620a55f29e0910b}
+\index{Database@{Database}!insert@{insert}}
+\index{insert@{insert}!Database@{Database}}
+\subsubsection[{\texorpdfstring{insert}{insert}}]{\setlength{\rightskip}{0pt plus 5cm}void Database\+::insert (
+\begin{DoxyParamCaption}
+\item[{const Q\+Date\+Time \&}]{datetime}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}\hypertarget{class_database_a2262e223186a88b1ac0f88245bfaab71}{}\label{class_database_a2262e223186a88b1ac0f88245bfaab71}
+\index{Database@{Database}!load\+Tables@{load\+Tables}}
+\index{load\+Tables@{load\+Tables}!Database@{Database}}
+\subsubsection[{\texorpdfstring{load\+Tables()}{loadTables()}}]{\setlength{\rightskip}{0pt plus 5cm}void Database\+::load\+Tables (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_database_a8eecdb8ab49878d43a41d5e29c3c35a2}{}\label{class_database_a8eecdb8ab49878d43a41d5e29c3c35a2}
+\index{Database@{Database}!new\+Table\+Name@{new\+Table\+Name}}
+\index{new\+Table\+Name@{new\+Table\+Name}!Database@{Database}}
+\subsubsection[{\texorpdfstring{new\+Table\+Name()}{newTableName()}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+String Database\+::new\+Table\+Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_database_a2c471d41d2dd4341ff510e06a0c8c6a5}{}\label{class_database_a2c471d41d2dd4341ff510e06a0c8c6a5}
+\index{Database@{Database}!on\+Period\+Changed@{on\+Period\+Changed}}
+\index{on\+Period\+Changed@{on\+Period\+Changed}!Database@{Database}}
+\subsubsection[{\texorpdfstring{on\+Period\+Changed}{onPeriodChanged}}]{\setlength{\rightskip}{0pt plus 5cm}void Database\+::on\+Period\+Changed (
+\begin{DoxyParamCaption}
+\item[{int}]{p}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}\hypertarget{class_database_a857e6024cbfab56a3f3521ccc6769cf4}{}\label{class_database_a857e6024cbfab56a3f3521ccc6769cf4}
+\index{Database@{Database}!save\+Data@{save\+Data}}
+\index{save\+Data@{save\+Data}!Database@{Database}}
+\subsubsection[{\texorpdfstring{save\+Data(bool s)}{saveData(bool s)}}]{\setlength{\rightskip}{0pt plus 5cm}void Database\+::save\+Data (
+\begin{DoxyParamCaption}
+\item[{bool}]{s}
+\end{DoxyParamCaption}
+)}\hypertarget{class_database_a6192c09a9cba8435c61c779d519e57b0}{}\label{class_database_a6192c09a9cba8435c61c779d519e57b0}
+\index{Database@{Database}!table\+Created@{table\+Created}}
+\index{table\+Created@{table\+Created}!Database@{Database}}
+\subsubsection[{\texorpdfstring{table\+Created}{tableCreated}}]{\setlength{\rightskip}{0pt plus 5cm}void Database\+::table\+Created (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}\hypertarget{class_database_af6cffa238311bf9d398f401c314160bf}{}\label{class_database_af6cffa238311bf9d398f401c314160bf}
+\index{Database@{Database}!table\+Name@{table\+Name}}
+\index{table\+Name@{table\+Name}!Database@{Database}}
+\subsubsection[{\texorpdfstring{table\+Name()}{tableName()}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+String Database\+::table\+Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_database_aa5f9ba4502bd54b08a1c04381cc8d361}{}\label{class_database_aa5f9ba4502bd54b08a1c04381cc8d361}
+\index{Database@{Database}!table\+Name\+Changed@{table\+Name\+Changed}}
+\index{table\+Name\+Changed@{table\+Name\+Changed}!Database@{Database}}
+\subsubsection[{\texorpdfstring{table\+Name\+Changed}{tableNameChanged}}]{\setlength{\rightskip}{0pt plus 5cm}void Database\+::table\+Name\+Changed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [signal]}}\hypertarget{class_database_a0ed84bd7f656e5fabadd579a0cbcbc57}{}\label{class_database_a0ed84bd7f656e5fabadd579a0cbcbc57}
+\index{Database@{Database}!tables@{tables}}
+\index{tables@{tables}!Database@{Database}}
+\subsubsection[{\texorpdfstring{tables()}{tables()}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Variant Database\+::tables (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_database_a47600e88e0ff9dea23b9e3ee27ed55bf}{}\label{class_database_a47600e88e0ff9dea23b9e3ee27ed55bf}
+\index{Database@{Database}!tables\+Changed@{tables\+Changed}}
+\index{tables\+Changed@{tables\+Changed}!Database@{Database}}
+\subsubsection[{\texorpdfstring{tables\+Changed}{tablesChanged}}]{\setlength{\rightskip}{0pt plus 5cm}void Database\+::tables\+Changed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [signal]}}\hypertarget{class_database_aa804ee053ba71d1e7c711a440968b9bc}{}\label{class_database_aa804ee053ba71d1e7c711a440968b9bc}
+\index{Database@{Database}!table\+Switch@{table\+Switch}}
+\index{table\+Switch@{table\+Switch}!Database@{Database}}
+\subsubsection[{\texorpdfstring{table\+Switch}{tableSwitch}}]{\setlength{\rightskip}{0pt plus 5cm}void Database\+::table\+Switch (
+\begin{DoxyParamCaption}
+\item[{bool}]{s}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}\hypertarget{class_database_a5cafa53304f3ff79a2487f5333cab8ad}{}\label{class_database_a5cafa53304f3ff79a2487f5333cab8ad}
+
+
+\subsection{属性说明}
+\index{Database@{Database}!table\+Name@{table\+Name}}
+\index{table\+Name@{table\+Name}!Database@{Database}}
+\subsubsection[{\texorpdfstring{table\+Name}{tableName}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+String Database\+::table\+Name\hspace{0.3cm}{\ttfamily [read]}}\hypertarget{class_database_a9f617c90d57d4c5b14e96e51c1aea92b}{}\label{class_database_a9f617c90d57d4c5b14e96e51c1aea92b}
+\index{Database@{Database}!tables@{tables}}
+\index{tables@{tables}!Database@{Database}}
+\subsubsection[{\texorpdfstring{tables}{tables}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Variant Database\+::tables\hspace{0.3cm}{\ttfamily [read]}}\hypertarget{class_database_ad44cff8b67b203182ef6d2b8f01126cf}{}\label{class_database_ad44cff8b67b203182ef6d2b8f01126cf}
+
+
+该类的文档由以下文件生成\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{database_8h}{database.\+h}\item 
+\hyperlink{database_8cpp}{database.\+cpp}\end{DoxyCompactItemize}

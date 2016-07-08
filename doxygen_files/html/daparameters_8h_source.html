@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>My Project: daparameters.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">daparameters.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="daparameters_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef DAPARAMETERS_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define DAPARAMETERS_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QObject&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;QVariant&gt;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="daparameters_8h.html#a8c6378801cd6a711ec34d75a857cb77d">    7</a></span>&#160;<span class="preprocessor">#define DACHANNEL 12</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="class_d_a_parameters.html">    9</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_d_a_parameters.html">DAParameters</a> : <span class="keyword">public</span> QObject</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    Q_OBJECT</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="class_d_a_parameters.html#ab418da6f029448485c336c1cacdfacc7">   12</a></span>&#160;    Q_PROPERTY(QVariantList <a class="code" href="class_d_a_parameters.html#a6f4b3462528b0eab3f4963957f649c1e">parameters</a> READ <a class="code" href="class_d_a_parameters.html#a6f4b3462528b0eab3f4963957f649c1e">parameters</a> WRITE <a class="code" href="class_d_a_parameters.html#a5ddb50f4c96574fba8c8663c8e0a7ee7">setParameters</a> NOTIFY <a class="code" href="class_d_a_parameters.html#a81b97b0fc990adc38d4b94f022dedebb">parametersChanged</a>)</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="class_d_a_parameters.html#a3eeae539e46310db5bc8ace9709b740e">   13</a></span>&#160;    Q_PROPERTY(<span class="keywordtype">int</span> <a class="code" href="class_d_a_parameters.html#a69289518ead00f524fac5b8858268329">channel</a> READ <a class="code" href="class_d_a_parameters.html#a69289518ead00f524fac5b8858268329">channel</a> NOTIFY <a class="code" href="class_d_a_parameters.html#aecf569fb041e4e40fd4ab6665231f8b3">channelChanged</a>)</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;public:</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    explicit <a class="code" href="class_d_a_parameters.html">DAParameters</a>(QObject *parent = 0);</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    QVariantList <a class="code" href="class_d_a_parameters.html#a6f4b3462528b0eab3f4963957f649c1e">parameters</a>();</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_d_a_parameters.html#a5ddb50f4c96574fba8c8663c8e0a7ee7">setParameters</a>(QVariantList list);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_d_a_parameters.html#a69289518ead00f524fac5b8858268329">channel</a>();</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_d_a_parameters.html#a1228cc62d04f29283fc6739e4c70f5c6">   22</a></span>&#160;    <span class="keywordtype">int</span> *<a class="code" href="class_d_a_parameters.html#a1228cc62d04f29283fc6739e4c70f5c6">m_waveType</a>;</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_d_a_parameters.html#a5294b0f7d5f7799a754e8cc24bbefb80">   23</a></span>&#160;    <span class="keywordtype">int</span> *<a class="code" href="class_d_a_parameters.html#a5294b0f7d5f7799a754e8cc24bbefb80">m_duty</a>;</div><div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="class_d_a_parameters.html#a56457c861795a1480baac2c25b739fab">   24</a></span>&#160;    qreal *<a class="code" href="class_d_a_parameters.html#a56457c861795a1480baac2c25b739fab">m_amp</a>;</div><div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="class_d_a_parameters.html#abd4e4a7223eb42cd090f6dc7a991e4b8">   25</a></span>&#160;    <span class="keywordtype">int</span> *<a class="code" href="class_d_a_parameters.html#abd4e4a7223eb42cd090f6dc7a991e4b8">m_period</a>;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;signals:</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">void</span> parametersChanged();</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_d_a_parameters.html#aecf569fb041e4e40fd4ab6665231f8b3">channelChanged</a>();</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;public slots:</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;private:</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    QVariantList m_list;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">int</span> m_channel;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;};</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#endif // DAPARAMETERS_H</span></div><div class="ttc" id="class_d_a_parameters_html_a56457c861795a1480baac2c25b739fab"><div class="ttname"><a href="class_d_a_parameters.html#a56457c861795a1480baac2c25b739fab">DAParameters::m_amp</a></div><div class="ttdeci">qreal * m_amp</div><div class="ttdef"><b>Definition:</b> daparameters.h:24</div></div>
+<div class="ttc" id="class_d_a_parameters_html"><div class="ttname"><a href="class_d_a_parameters.html">DAParameters</a></div><div class="ttdef"><b>Definition:</b> daparameters.h:9</div></div>
+<div class="ttc" id="class_d_a_parameters_html_a5294b0f7d5f7799a754e8cc24bbefb80"><div class="ttname"><a href="class_d_a_parameters.html#a5294b0f7d5f7799a754e8cc24bbefb80">DAParameters::m_duty</a></div><div class="ttdeci">int * m_duty</div><div class="ttdef"><b>Definition:</b> daparameters.h:23</div></div>
+<div class="ttc" id="class_d_a_parameters_html_a6f4b3462528b0eab3f4963957f649c1e"><div class="ttname"><a href="class_d_a_parameters.html#a6f4b3462528b0eab3f4963957f649c1e">DAParameters::parameters</a></div><div class="ttdeci">QVariantList parameters()</div></div>
+<div class="ttc" id="class_d_a_parameters_html_a69289518ead00f524fac5b8858268329"><div class="ttname"><a href="class_d_a_parameters.html#a69289518ead00f524fac5b8858268329">DAParameters::channel</a></div><div class="ttdeci">int channel()</div></div>
+<div class="ttc" id="class_d_a_parameters_html_a1228cc62d04f29283fc6739e4c70f5c6"><div class="ttname"><a href="class_d_a_parameters.html#a1228cc62d04f29283fc6739e4c70f5c6">DAParameters::m_waveType</a></div><div class="ttdeci">int * m_waveType</div><div class="ttdef"><b>Definition:</b> daparameters.h:22</div></div>
+<div class="ttc" id="class_d_a_parameters_html_a5ddb50f4c96574fba8c8663c8e0a7ee7"><div class="ttname"><a href="class_d_a_parameters.html#a5ddb50f4c96574fba8c8663c8e0a7ee7">DAParameters::setParameters</a></div><div class="ttdeci">void setParameters(QVariantList list)</div><div class="ttdef"><b>Definition:</b> daparameters.cpp:30</div></div>
+<div class="ttc" id="class_d_a_parameters_html_aecf569fb041e4e40fd4ab6665231f8b3"><div class="ttname"><a href="class_d_a_parameters.html#aecf569fb041e4e40fd4ab6665231f8b3">DAParameters::channelChanged</a></div><div class="ttdeci">void channelChanged()</div></div>
+<div class="ttc" id="class_d_a_parameters_html_abd4e4a7223eb42cd090f6dc7a991e4b8"><div class="ttname"><a href="class_d_a_parameters.html#abd4e4a7223eb42cd090f6dc7a991e4b8">DAParameters::m_period</a></div><div class="ttdeci">int * m_period</div><div class="ttdef"><b>Definition:</b> daparameters.h:25</div></div>
+<div class="ttc" id="class_d_a_parameters_html_a81b97b0fc990adc38d4b94f022dedebb"><div class="ttname"><a href="class_d_a_parameters.html#a81b97b0fc990adc38d4b94f022dedebb">DAParameters::parametersChanged</a></div><div class="ttdeci">void parametersChanged()</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

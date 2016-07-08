@@ -1,0 +1,261 @@
+\hypertarget{class_gas_data}{}\section{Gas\+Data类 参考}
+\label{class_gas_data}\index{Gas\+Data@{Gas\+Data}}
+
+
+{\ttfamily \#include $<$gasdata.\+h$>$}
+
+
+
+类 Gas\+Data 继承关系图\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=150pt]{class_gas_data__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Gas\+Data 的协作图\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=150pt]{class_gas_data__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public 槽}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_gas_data_a3f73b70a55cf1f7b39099500cacb9e13}{new\+Data} ()
+\end{DoxyCompactItemize}
+\subsection*{信号}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_gas_data_a0b0142d54233b7c659c3677a98ac6408}{time\+Changed} ()
+\item 
+void \hyperlink{class_gas_data_a88c01ec0f19987e146e488f3b797c415}{so2\+Changed} ()
+\item 
+void \hyperlink{class_gas_data_af274f1190089b70ef37f29cd0f99cf98}{no2\+Changed} ()
+\item 
+void \hyperlink{class_gas_data_a6ae59169bddd89f6d5a343e09d0fafb9}{co\+Changed} ()
+\item 
+void \hyperlink{class_gas_data_a0dbd3935dd960ee64f923b289da91534}{o3\+Changed} ()
+\item 
+void \hyperlink{class_gas_data_aca9ccae43ed434f654b2bdd785ba5088}{rh\+Changed} ()
+\item 
+void \hyperlink{class_gas_data_a99353a1207bea33ba06d5f36c0607c56}{temp\+Changed} ()
+\item 
+void \hyperlink{class_gas_data_af2b0284599635c7eecdb221d5b2b4f14}{data\+Updated} ()
+\end{DoxyCompactItemize}
+\subsection*{Public 成员函数}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_gas_data_ad2c93e20d8bc78ed424620a7cda0eaf3}{Gas\+Data} (Q\+Object $\ast$parent=0)
+\item 
+\hyperlink{class_gas_data_af8180388cf3d05085350be220defcfe6}{Gas\+Data} (qint16 $\ast$buffer)
+\item 
+qreal \hyperlink{class_gas_data_a0bd45899366f0c1aef068ff36e58cf40}{time} ()
+\item 
+qreal \hyperlink{class_gas_data_a1bb0e9b83b219aee6056cba5b95d6e57}{so2} ()
+\item 
+qreal \hyperlink{class_gas_data_ab60937b48c6f7bb235ac039ca144e1dc}{no2} ()
+\item 
+qreal \hyperlink{class_gas_data_a96adbc847434323af3b5d9f519d3897e}{o3} ()
+\item 
+qreal \hyperlink{class_gas_data_a0b28ed478992c372ea7a4f78e4c2435f}{co} ()
+\item 
+qreal \hyperlink{class_gas_data_a12dbcfe821d2c16caf9743842dc3ef4a}{rh} ()
+\item 
+qreal \hyperlink{class_gas_data_a5841654a877a78d2e511d0c47d931f45}{temp} ()
+\end{DoxyCompactItemize}
+\subsection*{Public 属性}
+\begin{DoxyCompactItemize}
+\item 
+Q\+List$<$ qreal $>$ \hyperlink{class_gas_data_a9a9580213b02c5be6f69016afc12f714}{m\+\_\+data}
+\end{DoxyCompactItemize}
+\subsection*{属性}
+\begin{DoxyCompactItemize}
+\item 
+qreal \hyperlink{class_gas_data_adc494c358095749e8548c282c7e83cb2}{time}
+\item 
+qreal \hyperlink{class_gas_data_af793f7ce28e6253cde7e64157085a78d}{so2}
+\item 
+qreal \hyperlink{class_gas_data_ac639f2784cc5928b18698719100ec4e4}{no2}
+\item 
+qreal \hyperlink{class_gas_data_a3d5fdde02a26dff391b676b8fbe13a2d}{o3}
+\item 
+qreal \hyperlink{class_gas_data_aec8d615eb86254833ed796edcf8a8221}{co}
+\item 
+qreal \hyperlink{class_gas_data_a521479d6e53eeac6c5f8b61479c7e383}{rh}
+\item 
+qreal \hyperlink{class_gas_data_a00dfe6cd501e6bb0dcb555b5e3f1bbf2}{temp}
+\end{DoxyCompactItemize}
+
+
+\subsection{构造及析构函数说明}
+\index{Gas\+Data@{Gas\+Data}!Gas\+Data@{Gas\+Data}}
+\index{Gas\+Data@{Gas\+Data}!Gas\+Data@{Gas\+Data}}
+\subsubsection[{\texorpdfstring{Gas\+Data(\+Q\+Object $\ast$parent=0)}{GasData(QObject *parent=0)}}]{\setlength{\rightskip}{0pt plus 5cm}Gas\+Data\+::\+Gas\+Data (
+\begin{DoxyParamCaption}
+\item[{Q\+Object $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [explicit]}}\hypertarget{class_gas_data_ad2c93e20d8bc78ed424620a7cda0eaf3}{}\label{class_gas_data_ad2c93e20d8bc78ed424620a7cda0eaf3}
+\index{Gas\+Data@{Gas\+Data}!Gas\+Data@{Gas\+Data}}
+\index{Gas\+Data@{Gas\+Data}!Gas\+Data@{Gas\+Data}}
+\subsubsection[{\texorpdfstring{Gas\+Data(qint16 $\ast$buffer)}{GasData(qint16 *buffer)}}]{\setlength{\rightskip}{0pt plus 5cm}Gas\+Data\+::\+Gas\+Data (
+\begin{DoxyParamCaption}
+\item[{qint16 $\ast$}]{buffer}
+\end{DoxyParamCaption}
+)}\hypertarget{class_gas_data_af8180388cf3d05085350be220defcfe6}{}\label{class_gas_data_af8180388cf3d05085350be220defcfe6}
+
+
+\subsection{成员函数说明}
+\index{Gas\+Data@{Gas\+Data}!co@{co}}
+\index{co@{co}!Gas\+Data@{Gas\+Data}}
+\subsubsection[{\texorpdfstring{co()}{co()}}]{\setlength{\rightskip}{0pt plus 5cm}qreal Gas\+Data\+::co (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_gas_data_a0b28ed478992c372ea7a4f78e4c2435f}{}\label{class_gas_data_a0b28ed478992c372ea7a4f78e4c2435f}
+\index{Gas\+Data@{Gas\+Data}!co\+Changed@{co\+Changed}}
+\index{co\+Changed@{co\+Changed}!Gas\+Data@{Gas\+Data}}
+\subsubsection[{\texorpdfstring{co\+Changed}{coChanged}}]{\setlength{\rightskip}{0pt plus 5cm}void Gas\+Data\+::co\+Changed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [signal]}}\hypertarget{class_gas_data_a6ae59169bddd89f6d5a343e09d0fafb9}{}\label{class_gas_data_a6ae59169bddd89f6d5a343e09d0fafb9}
+\index{Gas\+Data@{Gas\+Data}!data\+Updated@{data\+Updated}}
+\index{data\+Updated@{data\+Updated}!Gas\+Data@{Gas\+Data}}
+\subsubsection[{\texorpdfstring{data\+Updated}{dataUpdated}}]{\setlength{\rightskip}{0pt plus 5cm}void Gas\+Data\+::data\+Updated (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [signal]}}\hypertarget{class_gas_data_af2b0284599635c7eecdb221d5b2b4f14}{}\label{class_gas_data_af2b0284599635c7eecdb221d5b2b4f14}
+\index{Gas\+Data@{Gas\+Data}!new\+Data@{new\+Data}}
+\index{new\+Data@{new\+Data}!Gas\+Data@{Gas\+Data}}
+\subsubsection[{\texorpdfstring{new\+Data}{newData}}]{\setlength{\rightskip}{0pt plus 5cm}void Gas\+Data\+::new\+Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}\hypertarget{class_gas_data_a3f73b70a55cf1f7b39099500cacb9e13}{}\label{class_gas_data_a3f73b70a55cf1f7b39099500cacb9e13}
+\index{Gas\+Data@{Gas\+Data}!no2@{no2}}
+\index{no2@{no2}!Gas\+Data@{Gas\+Data}}
+\subsubsection[{\texorpdfstring{no2()}{no2()}}]{\setlength{\rightskip}{0pt plus 5cm}qreal Gas\+Data\+::no2 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_gas_data_ab60937b48c6f7bb235ac039ca144e1dc}{}\label{class_gas_data_ab60937b48c6f7bb235ac039ca144e1dc}
+\index{Gas\+Data@{Gas\+Data}!no2\+Changed@{no2\+Changed}}
+\index{no2\+Changed@{no2\+Changed}!Gas\+Data@{Gas\+Data}}
+\subsubsection[{\texorpdfstring{no2\+Changed}{no2Changed}}]{\setlength{\rightskip}{0pt plus 5cm}void Gas\+Data\+::no2\+Changed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [signal]}}\hypertarget{class_gas_data_af274f1190089b70ef37f29cd0f99cf98}{}\label{class_gas_data_af274f1190089b70ef37f29cd0f99cf98}
+\index{Gas\+Data@{Gas\+Data}!o3@{o3}}
+\index{o3@{o3}!Gas\+Data@{Gas\+Data}}
+\subsubsection[{\texorpdfstring{o3()}{o3()}}]{\setlength{\rightskip}{0pt plus 5cm}qreal Gas\+Data\+::o3 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_gas_data_a96adbc847434323af3b5d9f519d3897e}{}\label{class_gas_data_a96adbc847434323af3b5d9f519d3897e}
+\index{Gas\+Data@{Gas\+Data}!o3\+Changed@{o3\+Changed}}
+\index{o3\+Changed@{o3\+Changed}!Gas\+Data@{Gas\+Data}}
+\subsubsection[{\texorpdfstring{o3\+Changed}{o3Changed}}]{\setlength{\rightskip}{0pt plus 5cm}void Gas\+Data\+::o3\+Changed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [signal]}}\hypertarget{class_gas_data_a0dbd3935dd960ee64f923b289da91534}{}\label{class_gas_data_a0dbd3935dd960ee64f923b289da91534}
+\index{Gas\+Data@{Gas\+Data}!rh@{rh}}
+\index{rh@{rh}!Gas\+Data@{Gas\+Data}}
+\subsubsection[{\texorpdfstring{rh()}{rh()}}]{\setlength{\rightskip}{0pt plus 5cm}qreal Gas\+Data\+::rh (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_gas_data_a12dbcfe821d2c16caf9743842dc3ef4a}{}\label{class_gas_data_a12dbcfe821d2c16caf9743842dc3ef4a}
+\index{Gas\+Data@{Gas\+Data}!rh\+Changed@{rh\+Changed}}
+\index{rh\+Changed@{rh\+Changed}!Gas\+Data@{Gas\+Data}}
+\subsubsection[{\texorpdfstring{rh\+Changed}{rhChanged}}]{\setlength{\rightskip}{0pt plus 5cm}void Gas\+Data\+::rh\+Changed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [signal]}}\hypertarget{class_gas_data_aca9ccae43ed434f654b2bdd785ba5088}{}\label{class_gas_data_aca9ccae43ed434f654b2bdd785ba5088}
+\index{Gas\+Data@{Gas\+Data}!so2@{so2}}
+\index{so2@{so2}!Gas\+Data@{Gas\+Data}}
+\subsubsection[{\texorpdfstring{so2()}{so2()}}]{\setlength{\rightskip}{0pt plus 5cm}qreal Gas\+Data\+::so2 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_gas_data_a1bb0e9b83b219aee6056cba5b95d6e57}{}\label{class_gas_data_a1bb0e9b83b219aee6056cba5b95d6e57}
+\index{Gas\+Data@{Gas\+Data}!so2\+Changed@{so2\+Changed}}
+\index{so2\+Changed@{so2\+Changed}!Gas\+Data@{Gas\+Data}}
+\subsubsection[{\texorpdfstring{so2\+Changed}{so2Changed}}]{\setlength{\rightskip}{0pt plus 5cm}void Gas\+Data\+::so2\+Changed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [signal]}}\hypertarget{class_gas_data_a88c01ec0f19987e146e488f3b797c415}{}\label{class_gas_data_a88c01ec0f19987e146e488f3b797c415}
+\index{Gas\+Data@{Gas\+Data}!temp@{temp}}
+\index{temp@{temp}!Gas\+Data@{Gas\+Data}}
+\subsubsection[{\texorpdfstring{temp()}{temp()}}]{\setlength{\rightskip}{0pt plus 5cm}qreal Gas\+Data\+::temp (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_gas_data_a5841654a877a78d2e511d0c47d931f45}{}\label{class_gas_data_a5841654a877a78d2e511d0c47d931f45}
+\index{Gas\+Data@{Gas\+Data}!temp\+Changed@{temp\+Changed}}
+\index{temp\+Changed@{temp\+Changed}!Gas\+Data@{Gas\+Data}}
+\subsubsection[{\texorpdfstring{temp\+Changed}{tempChanged}}]{\setlength{\rightskip}{0pt plus 5cm}void Gas\+Data\+::temp\+Changed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [signal]}}\hypertarget{class_gas_data_a99353a1207bea33ba06d5f36c0607c56}{}\label{class_gas_data_a99353a1207bea33ba06d5f36c0607c56}
+\index{Gas\+Data@{Gas\+Data}!time@{time}}
+\index{time@{time}!Gas\+Data@{Gas\+Data}}
+\subsubsection[{\texorpdfstring{time()}{time()}}]{\setlength{\rightskip}{0pt plus 5cm}qreal Gas\+Data\+::time (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_gas_data_a0bd45899366f0c1aef068ff36e58cf40}{}\label{class_gas_data_a0bd45899366f0c1aef068ff36e58cf40}
+\index{Gas\+Data@{Gas\+Data}!time\+Changed@{time\+Changed}}
+\index{time\+Changed@{time\+Changed}!Gas\+Data@{Gas\+Data}}
+\subsubsection[{\texorpdfstring{time\+Changed}{timeChanged}}]{\setlength{\rightskip}{0pt plus 5cm}void Gas\+Data\+::time\+Changed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [signal]}}\hypertarget{class_gas_data_a0b0142d54233b7c659c3677a98ac6408}{}\label{class_gas_data_a0b0142d54233b7c659c3677a98ac6408}
+
+
+\subsection{类成员变量说明}
+\index{Gas\+Data@{Gas\+Data}!m\+\_\+data@{m\+\_\+data}}
+\index{m\+\_\+data@{m\+\_\+data}!Gas\+Data@{Gas\+Data}}
+\subsubsection[{\texorpdfstring{m\+\_\+data}{m_data}}]{\setlength{\rightskip}{0pt plus 5cm}Q\+List$<$qreal$>$ Gas\+Data\+::m\+\_\+data}\hypertarget{class_gas_data_a9a9580213b02c5be6f69016afc12f714}{}\label{class_gas_data_a9a9580213b02c5be6f69016afc12f714}
+
+
+\subsection{属性说明}
+\index{Gas\+Data@{Gas\+Data}!co@{co}}
+\index{co@{co}!Gas\+Data@{Gas\+Data}}
+\subsubsection[{\texorpdfstring{co}{co}}]{\setlength{\rightskip}{0pt plus 5cm}qreal Gas\+Data\+::co\hspace{0.3cm}{\ttfamily [read]}}\hypertarget{class_gas_data_aec8d615eb86254833ed796edcf8a8221}{}\label{class_gas_data_aec8d615eb86254833ed796edcf8a8221}
+\index{Gas\+Data@{Gas\+Data}!no2@{no2}}
+\index{no2@{no2}!Gas\+Data@{Gas\+Data}}
+\subsubsection[{\texorpdfstring{no2}{no2}}]{\setlength{\rightskip}{0pt plus 5cm}qreal Gas\+Data\+::no2\hspace{0.3cm}{\ttfamily [read]}}\hypertarget{class_gas_data_ac639f2784cc5928b18698719100ec4e4}{}\label{class_gas_data_ac639f2784cc5928b18698719100ec4e4}
+\index{Gas\+Data@{Gas\+Data}!o3@{o3}}
+\index{o3@{o3}!Gas\+Data@{Gas\+Data}}
+\subsubsection[{\texorpdfstring{o3}{o3}}]{\setlength{\rightskip}{0pt plus 5cm}qreal Gas\+Data\+::o3\hspace{0.3cm}{\ttfamily [read]}}\hypertarget{class_gas_data_a3d5fdde02a26dff391b676b8fbe13a2d}{}\label{class_gas_data_a3d5fdde02a26dff391b676b8fbe13a2d}
+\index{Gas\+Data@{Gas\+Data}!rh@{rh}}
+\index{rh@{rh}!Gas\+Data@{Gas\+Data}}
+\subsubsection[{\texorpdfstring{rh}{rh}}]{\setlength{\rightskip}{0pt plus 5cm}qreal Gas\+Data\+::rh\hspace{0.3cm}{\ttfamily [read]}}\hypertarget{class_gas_data_a521479d6e53eeac6c5f8b61479c7e383}{}\label{class_gas_data_a521479d6e53eeac6c5f8b61479c7e383}
+\index{Gas\+Data@{Gas\+Data}!so2@{so2}}
+\index{so2@{so2}!Gas\+Data@{Gas\+Data}}
+\subsubsection[{\texorpdfstring{so2}{so2}}]{\setlength{\rightskip}{0pt plus 5cm}qreal Gas\+Data\+::so2\hspace{0.3cm}{\ttfamily [read]}}\hypertarget{class_gas_data_af793f7ce28e6253cde7e64157085a78d}{}\label{class_gas_data_af793f7ce28e6253cde7e64157085a78d}
+\index{Gas\+Data@{Gas\+Data}!temp@{temp}}
+\index{temp@{temp}!Gas\+Data@{Gas\+Data}}
+\subsubsection[{\texorpdfstring{temp}{temp}}]{\setlength{\rightskip}{0pt plus 5cm}qreal Gas\+Data\+::temp\hspace{0.3cm}{\ttfamily [read]}}\hypertarget{class_gas_data_a00dfe6cd501e6bb0dcb555b5e3f1bbf2}{}\label{class_gas_data_a00dfe6cd501e6bb0dcb555b5e3f1bbf2}
+\index{Gas\+Data@{Gas\+Data}!time@{time}}
+\index{time@{time}!Gas\+Data@{Gas\+Data}}
+\subsubsection[{\texorpdfstring{time}{time}}]{\setlength{\rightskip}{0pt plus 5cm}qreal Gas\+Data\+::time\hspace{0.3cm}{\ttfamily [read]}}\hypertarget{class_gas_data_adc494c358095749e8548c282c7e83cb2}{}\label{class_gas_data_adc494c358095749e8548c282c7e83cb2}
+
+
+该类的文档由以下文件生成\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{gasdata_8h}{gasdata.\+h}\item 
+\hyperlink{gasdata_8cpp}{gasdata.\+cpp}\end{DoxyCompactItemize}

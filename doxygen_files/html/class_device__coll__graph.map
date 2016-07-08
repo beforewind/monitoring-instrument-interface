@@ -1,0 +1,5 @@
+<map id="Device" name="Device">
+<area shape="rect" id="node3" href="$class_data_source.html" title="{DataSource\n|+ axisXmin\l+ axisXmax\l+ phase\l|+ DataSource()\l+ axisXmin()\l+ axisXmax()\l+ phase()\l+ setAxisXmin()\l+ setAxisXmax()\l+ setPhase()\l+ generateData()\l+ appendData()\l+ update()\l+ updateColCount()\l+ updatePeriod()\l+ updateAxis()\l}" alt="" coords="63,147,198,429"/>
+<area shape="rect" id="node4" href="$class_d_a_parameters.html" title="{DAParameters\n|+ m_waveType\l+ m_duty\l+ m_amp\l+ m_period\l+ parameters\l+ channel\l|+ DAParameters()\l+ parameters()\l+ setParameters()\l+ channel()\l}" alt="" coords="222,191,348,385"/>
+<area shape="rect" id="node5" href="$class_gas_data.html" title="{GasData\n|+ m_data\l+ time\l+ so2\l+ no2\l+ o3\l+ co\l+ rh\l+ temp\l|+ GasData()\l+ GasData()\l+ time()\l+ so2()\l+ no2()\l+ o3()\l+ co()\l+ rh()\l+ temp()\l+ newData()\l}" alt="" coords="373,132,466,444"/>
+</map>

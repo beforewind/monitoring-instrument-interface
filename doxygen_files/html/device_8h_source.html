@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>My Project: device.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">device.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="device_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef DEVICE_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define DEVICE_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QObject&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;QThread&gt;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="usb2089_8h.html">usb2089.h</a>&quot;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;QDateTime&gt;</span></div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="device_8h.html#a3dc717773b96807e0f47b500b2f7ac04">    8</a></span>&#160;<span class="preprocessor">#define DEVCNT 2</span></div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="device_8h.html#aa58e0287a2b6f1815a98c7e5e6724e20">    9</a></span>&#160;<span class="preprocessor">#define DEVID 0</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">class </span><a class="code" href="class_serial.html">Serial</a>;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">class </span><a class="code" href="class_d_a_q.html">DAQ</a>;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">class </span><a class="code" href="class_d_a_c.html">DAC</a>;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">class </span><a class="code" href="class_d_a_parameters.html">DAParameters</a>;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">class </span><a class="code" href="class_gas_data.html">GasData</a>;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">class </span><a class="code" href="class_data_source.html">DataSource</a>;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">class </span><a class="code" href="class_timer.html">Timer</a>;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="class_device.html">   19</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_device.html">Device</a> : <span class="keyword">public</span> QObject</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    Q_OBJECT</div><div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_device.html#a02388ba20565bf3fb965562dc8a80220">   22</a></span>&#160;    Q_PROPERTY(<span class="keywordtype">int</span> <a class="code" href="class_device.html#a0cd70abff838a3fbe695ff74270bcbb5">time</a> READ <a class="code" href="class_device.html#a0cd70abff838a3fbe695ff74270bcbb5">time</a> NOTIFY <a class="code" href="class_device.html#a818f8350ab033557bfb72aef858a0ab7">timeChanged</a>)</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_device.html#adbc68ead998699f85673fabefda84daf">   23</a></span>&#160;    Q_PROPERTY(<span class="keywordtype">bool</span> <a class="code" href="class_device.html#a4953d696fd19d1b45d13dfc857d2bb13">status</a> READ <a class="code" href="class_device.html#a4953d696fd19d1b45d13dfc857d2bb13">status</a> WRITE <a class="code" href="class_device.html#a1466fe821dfd974399b09829a1a6ddc5">setStatus</a> NOTIFY <a class="code" href="class_device.html#a063dbe514cd12d635adbccf38bf4f53f">statusChanged</a>)</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;public:</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    explicit <a class="code" href="class_device.html">Device</a>(qint16 *buffer);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    ~<a class="code" href="class_device.html">Device</a>();</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    Q_INVOKABLE <span class="keywordtype">void</span> <a class="code" href="class_device.html#a68419c7c1d474721cce4f9a0a8b87ba0">devStart</a>();</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    Q_INVOKABLE <span class="keywordtype">void</span> <a class="code" href="class_device.html#a6f87ac6b1a5f7b9fd0fd73adccb460a2">devStop</a>();</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    Q_INVOKABLE <span class="keywordtype">void</span> <a class="code" href="class_device.html#a4b8abc3bfacc59f46c699b5ead1ea8f8">setSamplePeriod</a>(<span class="keywordtype">int</span> p);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    Q_INVOKABLE <span class="keywordtype">void</span> <a class="code" href="class_device.html#a5d201e969696bc986fe1f540826e0a8e">setDO</a>(<span class="keywordtype">int</span> indx, <span class="keywordtype">bool</span> val);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_device.html#a4953d696fd19d1b45d13dfc857d2bb13">status</a>();</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_device.html#a0cd70abff838a3fbe695ff74270bcbb5">time</a>();</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div><div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="class_device.html#a23b94d39e641579288e476519d5a6e51">   37</a></span>&#160;    <a class="code" href="class_data_source.html">DataSource</a> *<a class="code" href="class_device.html#a23b94d39e641579288e476519d5a6e51">m_adSource</a>;</div><div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="class_device.html#a29f1d7ff9ee32cee8c50b0f3392b5377">   38</a></span>&#160;    <a class="code" href="class_data_source.html">DataSource</a> *<a class="code" href="class_device.html#a29f1d7ff9ee32cee8c50b0f3392b5377">m_daSource</a>;</div><div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="class_device.html#a4ac8d2530319ebc1b46819db02b59e96">   39</a></span>&#160;    <a class="code" href="class_gas_data.html">GasData</a> *<a class="code" href="class_device.html#a4ac8d2530319ebc1b46819db02b59e96">m_gasData</a>;</div><div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="class_device.html#a3f51f6adfa09aa0308d39a88f6378238">   40</a></span>&#160;    <a class="code" href="class_d_a_parameters.html">DAParameters</a> *<a class="code" href="class_device.html#a3f51f6adfa09aa0308d39a88f6378238">m_daPara</a>;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div><div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="class_device.html#a46fdd5613ae7c31bbb39766230f333a9">   42</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_device.html#a46fdd5613ae7c31bbb39766230f333a9">m_samplePeriod</a>;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;signals:</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_device.html#a063dbe514cd12d635adbccf38bf4f53f">statusChanged</a>(<span class="keywordtype">bool</span>);</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span> timeChanged();</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_device.html#a1377620e47da1997d012cec27e3c72d4">acquired</a>(const QDateTime&amp;);</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_device.html#a74f0827f51383f85e0cab3ddb81ced4b">samplePeriodChanged</a>(<span class="keywordtype">int</span>);</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_device.html#afffd72adb7de79c6f9458e0140e04f0c">heartbeatStart</a>();</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_device.html#a0efcae038c0da76b43f9efab5314d200">heartbeatStop</a>();</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_device.html#a8174b87c354c82e789569b87e7e2591e">serialClose</a>();</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;public slots:</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_device.html#a1466fe821dfd974399b09829a1a6ddc5">setStatus</a>(<span class="keywordtype">bool</span> s);</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;private:</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">bool</span> m_status;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <a class="code" href="class_serial.html">Serial</a> *m_serial;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    HANDLE m_handle[2];</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    BYTE m_bDOSts[8];</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <a class="code" href="class_d_a_q.html">DAQ</a> *m_daq;</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    QList&lt;<a class="code" href="class_d_a_c.html">DAC</a> *&gt; m_dac;</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <a class="code" href="class_timer.html">Timer</a> *m_devTimer;</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <a class="code" href="class_timer.html">Timer</a> *m_serialTimer;</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <a class="code" href="class_timer.html">Timer</a> *m_gasTimer;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    QThread *m_threadDAQ;</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    QList&lt;QThread *&gt; m_threadDAC;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    QThread *m_threadTimer;</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    QThread *m_threadGasTimer;</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    QThread *m_threadSerial;</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;};</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor">#endif // DEVICE_H</span></div><div class="ttc" id="class_device_html_a74f0827f51383f85e0cab3ddb81ced4b"><div class="ttname"><a href="class_device.html#a74f0827f51383f85e0cab3ddb81ced4b">Device::samplePeriodChanged</a></div><div class="ttdeci">void samplePeriodChanged(int)</div></div>
+<div class="ttc" id="class_timer_html"><div class="ttname"><a href="class_timer.html">Timer</a></div><div class="ttdef"><b>Definition:</b> timer.h:6</div></div>
+<div class="ttc" id="class_d_a_parameters_html"><div class="ttname"><a href="class_d_a_parameters.html">DAParameters</a></div><div class="ttdef"><b>Definition:</b> daparameters.h:9</div></div>
+<div class="ttc" id="class_device_html_a4ac8d2530319ebc1b46819db02b59e96"><div class="ttname"><a href="class_device.html#a4ac8d2530319ebc1b46819db02b59e96">Device::m_gasData</a></div><div class="ttdeci">GasData * m_gasData</div><div class="ttdef"><b>Definition:</b> device.h:39</div></div>
+<div class="ttc" id="class_device_html_a1466fe821dfd974399b09829a1a6ddc5"><div class="ttname"><a href="class_device.html#a1466fe821dfd974399b09829a1a6ddc5">Device::setStatus</a></div><div class="ttdeci">void setStatus(bool s)</div><div class="ttdef"><b>Definition:</b> device.cpp:150</div></div>
+<div class="ttc" id="class_device_html_a6f87ac6b1a5f7b9fd0fd73adccb460a2"><div class="ttname"><a href="class_device.html#a6f87ac6b1a5f7b9fd0fd73adccb460a2">Device::devStop</a></div><div class="ttdeci">Q_INVOKABLE void devStop()</div><div class="ttdef"><b>Definition:</b> device.cpp:163</div></div>
+<div class="ttc" id="class_device_html_a29f1d7ff9ee32cee8c50b0f3392b5377"><div class="ttname"><a href="class_device.html#a29f1d7ff9ee32cee8c50b0f3392b5377">Device::m_daSource</a></div><div class="ttdeci">DataSource * m_daSource</div><div class="ttdef"><b>Definition:</b> device.h:38</div></div>
+<div class="ttc" id="class_d_a_q_html"><div class="ttname"><a href="class_d_a_q.html">DAQ</a></div><div class="ttdef"><b>Definition:</b> daq.h:7</div></div>
+<div class="ttc" id="class_device_html_a46fdd5613ae7c31bbb39766230f333a9"><div class="ttname"><a href="class_device.html#a46fdd5613ae7c31bbb39766230f333a9">Device::m_samplePeriod</a></div><div class="ttdeci">int m_samplePeriod</div><div class="ttdef"><b>Definition:</b> device.h:42</div></div>
+<div class="ttc" id="class_device_html_a0cd70abff838a3fbe695ff74270bcbb5"><div class="ttname"><a href="class_device.html#a0cd70abff838a3fbe695ff74270bcbb5">Device::time</a></div><div class="ttdeci">int time()</div></div>
+<div class="ttc" id="class_device_html"><div class="ttname"><a href="class_device.html">Device</a></div><div class="ttdef"><b>Definition:</b> device.h:19</div></div>
+<div class="ttc" id="class_device_html_a3f51f6adfa09aa0308d39a88f6378238"><div class="ttname"><a href="class_device.html#a3f51f6adfa09aa0308d39a88f6378238">Device::m_daPara</a></div><div class="ttdeci">DAParameters * m_daPara</div><div class="ttdef"><b>Definition:</b> device.h:40</div></div>
+<div class="ttc" id="class_device_html_a4953d696fd19d1b45d13dfc857d2bb13"><div class="ttname"><a href="class_device.html#a4953d696fd19d1b45d13dfc857d2bb13">Device::status</a></div><div class="ttdeci">bool status()</div></div>
+<div class="ttc" id="class_device_html_a8174b87c354c82e789569b87e7e2591e"><div class="ttname"><a href="class_device.html#a8174b87c354c82e789569b87e7e2591e">Device::serialClose</a></div><div class="ttdeci">void serialClose()</div></div>
+<div class="ttc" id="class_data_source_html"><div class="ttname"><a href="class_data_source.html">DataSource</a></div><div class="ttdef"><b>Definition:</b> datasource.h:42</div></div>
+<div class="ttc" id="class_device_html_a23b94d39e641579288e476519d5a6e51"><div class="ttname"><a href="class_device.html#a23b94d39e641579288e476519d5a6e51">Device::m_adSource</a></div><div class="ttdeci">DataSource * m_adSource</div><div class="ttdef"><b>Definition:</b> device.h:37</div></div>
+<div class="ttc" id="class_device_html_a818f8350ab033557bfb72aef858a0ab7"><div class="ttname"><a href="class_device.html#a818f8350ab033557bfb72aef858a0ab7">Device::timeChanged</a></div><div class="ttdeci">void timeChanged()</div></div>
+<div class="ttc" id="class_device_html_a063dbe514cd12d635adbccf38bf4f53f"><div class="ttname"><a href="class_device.html#a063dbe514cd12d635adbccf38bf4f53f">Device::statusChanged</a></div><div class="ttdeci">void statusChanged(bool)</div></div>
+<div class="ttc" id="class_serial_html"><div class="ttname"><a href="class_serial.html">Serial</a></div><div class="ttdef"><b>Definition:</b> serial.h:10</div></div>
+<div class="ttc" id="class_gas_data_html"><div class="ttname"><a href="class_gas_data.html">GasData</a></div><div class="ttdef"><b>Definition:</b> gasdata.h:8</div></div>
+<div class="ttc" id="class_device_html_a68419c7c1d474721cce4f9a0a8b87ba0"><div class="ttname"><a href="class_device.html#a68419c7c1d474721cce4f9a0a8b87ba0">Device::devStart</a></div><div class="ttdeci">Q_INVOKABLE void devStart()</div><div class="ttdef"><b>Definition:</b> device.cpp:156</div></div>
+<div class="ttc" id="class_device_html_a1377620e47da1997d012cec27e3c72d4"><div class="ttname"><a href="class_device.html#a1377620e47da1997d012cec27e3c72d4">Device::acquired</a></div><div class="ttdeci">void acquired(const QDateTime &amp;)</div></div>
+<div class="ttc" id="class_device_html_afffd72adb7de79c6f9458e0140e04f0c"><div class="ttname"><a href="class_device.html#afffd72adb7de79c6f9458e0140e04f0c">Device::heartbeatStart</a></div><div class="ttdeci">void heartbeatStart()</div></div>
+<div class="ttc" id="class_device_html_a4b8abc3bfacc59f46c699b5ead1ea8f8"><div class="ttname"><a href="class_device.html#a4b8abc3bfacc59f46c699b5ead1ea8f8">Device::setSamplePeriod</a></div><div class="ttdeci">Q_INVOKABLE void setSamplePeriod(int p)</div><div class="ttdef"><b>Definition:</b> device.cpp:185</div></div>
+<div class="ttc" id="usb2089_8h_html"><div class="ttname"><a href="usb2089_8h.html">usb2089.h</a></div></div>
+<div class="ttc" id="class_device_html_a0efcae038c0da76b43f9efab5314d200"><div class="ttname"><a href="class_device.html#a0efcae038c0da76b43f9efab5314d200">Device::heartbeatStop</a></div><div class="ttdeci">void heartbeatStop()</div></div>
+<div class="ttc" id="class_device_html_a5d201e969696bc986fe1f540826e0a8e"><div class="ttname"><a href="class_device.html#a5d201e969696bc986fe1f540826e0a8e">Device::setDO</a></div><div class="ttdeci">Q_INVOKABLE void setDO(int indx, bool val)</div><div class="ttdef"><b>Definition:</b> device.cpp:170</div></div>
+<div class="ttc" id="class_d_a_c_html"><div class="ttname"><a href="class_d_a_c.html">DAC</a></div><div class="ttdef"><b>Definition:</b> dac.h:11</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>
