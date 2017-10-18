@@ -35,4 +35,4 @@ PostgreSQL 9.5
 
 # Documentation
 
-see [paper](https://github.com/hjhee/Bachelorarbeit/raw/master/main.pdf) and [blog](https://hjhee.github.io/2016/06/28/ciq35g3av0001igw4y8cxlhz4/)
+see [paper](https://github.com/hjhee/Bachelorarbeit/raw/master/main.pdf) and [blog](https://hjhee.github.io/2016/06/28/introduction-to-qt-quick-development.html)
